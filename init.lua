@@ -1,8 +1,8 @@
 -- Set tab space
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
+vim.cmd 'set expandtab'
+vim.cmd 'set tabstop=2'
+vim.cmd 'set softtabstop=2'
+vim.cmd 'set shiftwidth=2'
 
 -- Set <space> as the leader key
 -- See `:help mapleader`
@@ -157,8 +157,8 @@ require('lazy').setup({
 
   {
     -- Theme inspired by Atom
-    "catppuccin/nvim",
-    name = "catppuccin",
+    'catppuccin/nvim',
+    name = 'catppuccin',
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'catppuccin'
@@ -539,8 +539,9 @@ local servers = {
   -- clangd = {},
   gopls = {},
   pyright = {},
-  -- rust_analyzer = {},
   tsserver = {},
+  tailwindcss = {},
+  eslint = {},
   html = { filetypes = { 'html', 'twig', 'hbs' } },
 
   lua_ls = {
