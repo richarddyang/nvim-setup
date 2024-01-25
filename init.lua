@@ -542,7 +542,7 @@ local servers = {
   tsserver = {},
   tailwindcss = {},
   eslint = {},
-  html = { filetypes = { 'html', 'twig', 'hbs' } },
+  html = { filetypes = { 'html', 'twig', 'hbs', 'templ' } },
 
   lua_ls = {
     Lua = {
