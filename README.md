@@ -5,5 +5,5 @@ rm -rfv ~/.local/share/nvim
 rm -rfv ~/.local/state/nvim
 rm -rfv ~/.cache/nvim
 rm -rfv ~/.config/nvim
-git clone https://github.com/dangrichardyang/nvim-setup.git ~/.config/nvim
+git clone https://github.com/richarddyang/nvim-setup.git ~/.config/nvim
 ```
